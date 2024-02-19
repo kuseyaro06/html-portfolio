@@ -1,24 +1,24 @@
-/* Group */
+/* Write your code here: */
+
+
 h1, h2 {
-  color: blueviolet;
+    color: blueviolet;
 }
 
-/* Child */
 .box > p {
-  color: firebrick;
+    color: firebrick;
 }
 
-/* Descendent */
+/* or ul p.done */ 
+p.done {
+    font-size: 0.5rem;
+}
+
 .box li {
-  color: blue;
+    color: blue;
 }
 
-/* Chained */
+/* or li.done */
 li.done {
-  color: green;
-}
-
-/* Multiple Combiners */
-ul p.done {
-  font-size: 0.5rem;
+    color: green;
 }
