@@ -1,0 +1,47 @@
+/** This is the stylesheet. Since we are targeting re-creating super admin, it is a good idea to create a styling for each of the section for later use  **/
+
+/** Main Here ***/ 
+
+#header {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    color: turquoise;
+}
+
+#body {
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    color: turquoise;
+}
+
+/** Components Here ***/ 
+
+#hero
+
+#hero-with-text
+
+/** Utilities Here ***/ 
+
+.container {
+    display: flex;   
+    flex-direction: row;
+    height: 100vh;
+}
+
+.bg-full {
+    background-image:url(./images/about_me.png) ;
+    background-size: 100% 100%;
+}
+
+/** Additional designs Here ***/ 
+
+.btn-design {
+    border-image: url();
+}
+/** border-image **/ 
